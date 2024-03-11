@@ -33,7 +33,7 @@ function Complete() {
   const [preview, setPreview] = useState<{uri: string}>();
   const accessToken = useSelector((state: RootState) => state.user.accessToken);
 
-  const onResponse = useCallback(async response => {
+  const onResponse = useCallback(async (response: any) => {
     console.log(response.width, response.height, response.exif);
     setPreview({uri: `data:${response.mime};base64,${response.data}`});
     const orientation = (response.exif as any)?.Orientation;

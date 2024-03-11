@@ -34,4 +34,8 @@
             android:name="com.naver.maps.map.CLIENT_ID"
             android:value="3p5lei2moi" />
     </application>
+
+    <queries>
+        <package android:name="com.skt.tmap.ku" />
+    </queries>
 </manifest>
