@@ -1,6 +1,9 @@
 # OSX
 #
 .DS_Store
+.env
+.idea/
+android/app/google-services.json
 
 # Xcode
 #
