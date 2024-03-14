@@ -6,8 +6,6 @@ import AppInner from './AppInner';
 import messaging from '@react-native-firebase/messaging';
 import PushNotification from 'react-native-push-notification';
 import PushNotificationIOS from '@react-native-community/push-notification-ios';
-import CodePush, {CodePushOptions} from 'react-native-code-push';
-import {useEffect} from 'react';
 
 messaging().setBackgroundMessageHandler(async remoteMessage => {
   console.log('Message handled in the background!', remoteMessage);

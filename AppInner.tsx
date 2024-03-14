@@ -181,7 +181,7 @@ function AppInner() {
         component={Settings}
         options={{
           title: '내 정보',
-          tabBarIcon: () => <FontAwesome name="gear" size={10} />,
+          tabBarIcon: () => <FontAwesome name="gear" size={20} />,
           unmountOnBlur: true,
         }}
       />
